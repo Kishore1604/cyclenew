@@ -16,7 +16,6 @@ import {
   BarChart3,
   Menu,
   X,
-  ChevronDown,
   Clock,
   TrendingUp,
   Layers,
@@ -414,6 +413,8 @@ export default function Home() {
         </div>
       </section>
 
+      // [unchanged code from top]
+
       {/* CTA Section */}
       <section className="py-20 bg-blue-600">
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
@@ -427,10 +428,10 @@ export default function Home() {
               Ready to ship faster?
             </h2>
             <p className="text-xl text-blue-100 mb-10 leading-relaxed">
-              Join thousands of teams already building better products with FlowSync. 
+              Join thousands of teams already building better products with FlowSync.{" "}
               Start your free trial today.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
               <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold">
                 Start building for free
@@ -440,7 +441,7 @@ export default function Home() {
                 Talk to sales
               </Button>
             </div>
-            
+
             <div className="flex items-center justify-center space-x-8 text-blue-100 text-sm">
               <div className="flex items-center space-x-2">
                 <CheckCircle className="w-4 h-4" />
@@ -459,5 +460,6 @@ export default function Home() {
         </div>
       </section>
     </div>
-  );
+  )
 }
+
